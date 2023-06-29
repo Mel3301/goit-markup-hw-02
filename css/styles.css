@@ -1,0 +1,150 @@
+:root {
+  --primary-band-color: #4d5ae5;
+  --pressed-state-color: #404bbf;
+  --dark-color: #2e2f42;
+  --succes-color: #31d0aa;
+  --text-color: #434455;
+  --subtle-text-color: #8e8f99;
+  --accent-color: #e7e9fc;
+  --light-color: #f4f4fd;
+  --modal-overlay-color: #2e2f4266;
+  --hero-background-color: #2e2f42b2;
+  --white-background-color: #ffffff;
+  --modal-background-color: #fcfcfc;
+  --primary-font: "Roboto", sans-serif;
+}
+
+body {
+  font-family: var(--primary-font);
+  color: var(--text-color);
+  background-color: var(--white-background-color);
+}
+
+footer {
+  background-color: var(--dark-color);
+}
+
+footer .footer-text {
+  color: var(--light-color);
+}
+
+header {
+  background-color: var(--white-background-color);
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+h1 {
+  color: var(--white-background-color);
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 1.071;
+}
+
+h2 {
+  color: var(--dark-color);
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.111;
+  text-transform: capitalize;
+}
+
+h3 {
+  color: var(--dark-color);
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+}
+
+p {
+  color: inherit;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.welcome-page {
+  background-color: var(--dark-color);
+  color: var(--white-background-color);
+  text-align: center;
+}
+
+.main-button {
+  background-color: var(--primary-band-color);
+  color: var(--white-background-color);
+  font-size: 16px;
+  cursor: pointer;
+  line-height: 1.5;
+}
+
+.main-button:hover,
+.main-button:focus {
+  background-color: var(--pressed-state-color);
+}
+
+.portfolio-button {
+  background-color: var(--light-color);
+  color: var(--primary-band-color);
+  font-size: 16px;
+  cursor: pointer;
+  line-height: 1.5;
+}
+
+.portfolio-button:hover,
+.portfolio-button:focus {
+  background-color: var(--pressed-state-color);
+  color: var(--white-background-color);
+}
+
+header .logo-main {
+  color: var(--dark-color);
+  font-family: Raleway;
+  font-size: 18px;
+  font-weight: 800;
+  text-transform: uppercase;
+}
+
+footer .logo-main {
+  color: var(--light-color);
+  font-family: Raleway;
+  font-size: 18px;
+  font-weight: 800;
+  text-transform: uppercase;
+}
+
+.logo-part-one {
+  color: var(--primary-band-color);
+}
+
+.contacts-link {
+  color: inherit;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.contacts-link:hover,
+.contacts-link:focus {
+  color: var(--pressed-state-color);
+}
+
+.menu-list-properties {
+  color: var(--dark-color);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+}
+
+.menu-list-properties:hover,
+.menu-list-properties:focus {
+  color: var(--pressed-state-color);
+}
+
+.section-employee {
+  background-color: var(--light-color);
+}
