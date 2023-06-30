@@ -20,12 +20,13 @@ body {
   background-color: var(--white-background-color);
 }
 
-footer {
+.footer-main {
   background-color: var(--dark-color);
 }
 
-footer .footer-text {
+.footer-text {
   color: var(--light-color);
+  letter-spacing: 0.02em;
 }
 
 header {
@@ -40,33 +41,43 @@ header {
   text-decoration: none;
 }
 
-h1 {
+.h-one {
   color: var(--white-background-color);
   font-size: 56px;
   font-weight: 700;
-  line-height: 1.071;
+  line-height: 1.07;
+  letter-spacing: 0.02em;
 }
 
-h2 {
+.h-two {
   color: var(--dark-color);
   font-size: 36px;
   font-weight: 700;
-  line-height: 1.111;
+  line-height: 1.11;
   text-transform: capitalize;
+  letter-spacing: 0.02em;
 }
 
-h3 {
+.goal-p {
+  color: var(--text-color);
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+.h-three {
   color: var(--dark-color);
   font-size: 20px;
   font-weight: 500;
   line-height: 1.2;
+  letter-spacing: 0.02em;
 }
 
-p {
+/* p {
   color: inherit;
   font-size: 16px;
   line-height: 1.5;
-}
+} */
 
 .welcome-page {
   background-color: var(--dark-color);
@@ -75,11 +86,14 @@ p {
 }
 
 .main-button {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
   background-color: var(--primary-band-color);
   color: var(--white-background-color);
   font-size: 16px;
   cursor: pointer;
   line-height: 1.5;
+  letter-spacing: 0.04em;
 }
 
 .main-button:hover,
