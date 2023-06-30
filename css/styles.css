@@ -102,24 +102,22 @@ p {
   color: var(--white-background-color);
 }
 
-header .logo-main {
-  color: var(--dark-color);
-  font-family: Raleway;
-  font-size: 18px;
-  font-weight: 800;
-  text-transform: uppercase;
-}
-
-footer .logo-main {
-  color: var(--light-color);
-  font-family: Raleway;
-  font-size: 18px;
-  font-weight: 800;
-  text-transform: uppercase;
-}
-
-.logo-part-one {
+.logo-main {
   color: var(--primary-band-color);
+  font-family: "Raleway", sans-serif;
+  font-size: 18px;
+  font-weight: 800;
+  text-transform: uppercase;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+}
+
+header .logo-part-one {
+  color: var(--dark-color);
+}
+
+footer .logo-part-one {
+  color: var(--light-color);
 }
 
 .contacts-link {
